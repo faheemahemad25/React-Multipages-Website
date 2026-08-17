@@ -111,7 +111,8 @@ const Nav = styled.nav`
       position: fixed;
       top: 0;
       left: 0;
-      background-color: #ffffffcc;
+      /* background-color: #ffffffcc; */
+      background-color: #fff;
 
       width: 100vw;
       height: 100vh;
