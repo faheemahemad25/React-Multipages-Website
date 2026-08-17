@@ -50,7 +50,7 @@ function App() {
       {/* <h1>React Multipage Website</h1> */}
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <BrowserRouter>
+        <BrowserRouter basename="/React-Multipage-Portfolio-Website">
           <Header />
           <Routes>
             <Route path='/' element={<Home />} />
